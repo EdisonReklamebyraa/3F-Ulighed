@@ -173,12 +173,37 @@
 		}
 		img {
 			
+			&.fl {
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}	
+			&.fr {
+				float: right;
+				margin-left: 10px;
+				margin-bottom: 10px;
+			}
 		}
-		.fl {
-			float: left;
-			margin-right: 10px;
-			margin-bottom: 10px;
-		}	
+		.links {
+			ul {
+				@include pretty-bullets("bullet-arrow.png", 8px, 8px, 30px, 20px);
+				padding: 0px;
+				margin: 0px;
+				li {
+					border-bottom: 1px solid #7a0414;
+					padding-bottom: 5px;
+					padding-top: 5px;
+				}
+			}
+			a {
+			text-decoration: none;
+			color: #000;
+				&:hover {
+					color: #7a0414;
+				}
+
+			}
+		}
 	}
 
 }
