@@ -1604,7 +1604,7 @@ html, body {
 }
 /* line 169, ../src/screen.scss */
 .container .content {
-  padding: 7px 10px 0 10px;
+  padding: 7px 10px 10px 10px;
 }
 /* line 171, ../src/screen.scss */
 .container .content p {
