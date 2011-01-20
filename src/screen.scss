@@ -135,6 +135,7 @@
 	.column-1-2-3-4 {
 		@include column(16,true);
 		background-image: image-url("content_vertical_separator.png");
+		background-repeat: no-repeat;
 		display: block;
 		overflow: hidden;
 		&.nobackground {

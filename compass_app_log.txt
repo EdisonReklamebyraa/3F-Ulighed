@@ -454,3 +454,8 @@
 2011-01-20 10:59:04 overwrite stylesheets/screen.css
 2011-01-20 11:00:06 overwrite stylesheets/screen.css
 2011-01-20 11:21:56 overwrite stylesheets/screen.css
+2011-01-20 11:25:45 overwrite stylesheets/screen.css
+2011-01-20 11:25:56     error src/screen.scss (Line 137: Invalid CSS after "...or.png") repeat": expected ";", was ": repeat-x;")
+2011-01-20 11:25:56 overwrite stylesheets/screen.css
+2011-01-20 11:26:04 overwrite stylesheets/screen.css
+2011-01-20 11:27:04 overwrite stylesheets/screen.css
