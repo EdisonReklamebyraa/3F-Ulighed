@@ -281,6 +281,13 @@
 				margin-bottom: 20px;
 				padding-bottom: 5px;
 				border-bottom: 1px solid $default-bordercolor;
+				a {
+					color: #7a0414;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
 			}
 			.facts {
 				background: $default-background;
