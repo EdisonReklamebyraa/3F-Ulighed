@@ -31,7 +31,7 @@
 .container {
 	
 	
-	@include showgrid("grid.png");
+	/* @include showgrid("grid.png");*/
 	.header {
 		/* background-image:image-url("header_bgimg.jpg");
 		height: image-height("header_bgimg.jpg"); */
@@ -215,6 +215,9 @@
 					color: #7a0414;
 				}
 
+			}
+			h3 {
+				margin-bottom: 0px;
 			}
 		}
 		.article {
