@@ -1517,7 +1517,22 @@ html, body {
 * html .container .column-1-2-3-4 {
   overflow-x: hidden;
 }
-/* line 141, ../src/screen.scss */
+/* line 140, ../src/screen.scss */
+.container .column-1-2-3-4.nobackground {
+  background-image: none;
+}
+/* line 144, ../src/screen.scss */
+.container .column-1-2-3 {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  width: 700px;
+}
+/* line 138, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
+* html .container .column-1-2-3 {
+  overflow-x: hidden;
+}
+/* line 147, ../src/screen.scss */
 .container .column-1-2 {
   display: inline;
   float: left;
@@ -1528,7 +1543,7 @@ html, body {
 * html .container .column-1-2 {
   overflow-x: hidden;
 }
-/* line 144, ../src/screen.scss */
+/* line 150, ../src/screen.scss */
 .container .column-3-4 {
   display: inline;
   float: left;
@@ -1539,7 +1554,7 @@ html, body {
 * html .container .column-3-4 {
   overflow-x: hidden;
 }
-/* line 147, ../src/screen.scss */
+/* line 153, ../src/screen.scss */
 .container .column-1 {
   display: inline;
   float: left;
@@ -1550,7 +1565,11 @@ html, body {
 * html .container .column-1 {
   overflow-x: hidden;
 }
-/* line 150, ../src/screen.scss */
+/* line 155, ../src/screen.scss */
+.container .column-1.last {
+  margin-right: 0px;
+}
+/* line 159, ../src/screen.scss */
 .container .column-2 {
   display: inline;
   float: left;
@@ -1561,7 +1580,7 @@ html, body {
 * html .container .column-2 {
   overflow-x: hidden;
 }
-/* line 153, ../src/screen.scss */
+/* line 162, ../src/screen.scss */
 .container .column-3 {
   display: inline;
   float: left;
@@ -1572,7 +1591,7 @@ html, body {
 * html .container .column-3 {
   overflow-x: hidden;
 }
-/* line 156, ../src/screen.scss */
+/* line 165, ../src/screen.scss */
 .container .column-4 {
   display: inline;
   float: left;
@@ -1583,46 +1602,46 @@ html, body {
 * html .container .column-4 {
   overflow-x: hidden;
 }
-/* line 160, ../src/screen.scss */
+/* line 169, ../src/screen.scss */
 .container .content {
   padding: 7px 10px 0 10px;
 }
-/* line 162, ../src/screen.scss */
+/* line 171, ../src/screen.scss */
 .container .content p {
   clear: both;
 }
-/* line 165, ../src/screen.scss */
+/* line 174, ../src/screen.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 169, ../src/screen.scss */
+/* line 178, ../src/screen.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 173, ../src/screen.scss */
+/* line 182, ../src/screen.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 179, ../src/screen.scss */
+/* line 188, ../src/screen.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 184, ../src/screen.scss */
+/* line 193, ../src/screen.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 190, ../src/screen.scss */
+/* line 199, ../src/screen.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 192, ../src/screen.scss */
+/* line 201, ../src/screen.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -1634,46 +1653,94 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 196, ../src/screen.scss */
+/* line 205, ../src/screen.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 202, ../src/screen.scss */
+/* line 211, ../src/screen.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 205, ../src/screen.scss */
+/* line 214, ../src/screen.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 211, ../src/screen.scss */
+/* line 220, ../src/screen.scss */
+.container .content .article {
+  overflow: hidden;
+}
+/* line 222, ../src/screen.scss */
+.container .content .article .articlepicture {
+  margin-bottom: 10px;
+}
+/* line 224, ../src/screen.scss */
+.container .content .article .articlepicture .caption {
+  background: #bbb;
+  padding: 5px;
+}
+/* line 230, ../src/screen.scss */
+.container .content .article .summary {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 234, ../src/screen.scss */
+.container .content .article .paragraph {
+  margin-bottom: 20px;
+}
+/* line 236, ../src/screen.scss */
+.container .content .article .paragraph .picture {
+  width: 200px;
+}
+/* line 238, ../src/screen.scss */
+.container .content .article .paragraph .picture.fl {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 243, ../src/screen.scss */
+.container .content .article .paragraph .picture.fr {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+/* line 248, ../src/screen.scss */
+.container .content .article .paragraph .picture .caption {
+  background: #bbb;
+  padding: 5px;
+}
+/* line 255, ../src/screen.scss */
+.container .content .article .facts {
+  background: #bbb;
+  padding: 5px;
+}
+/* line 260, ../src/screen.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 215, ../src/screen.scss */
+/* line 264, ../src/screen.scss */
 .container .content .articlelist h2 {
   margin-bottom: 0px;
   clear: both;
 }
-/* line 219, ../src/screen.scss */
+/* line 268, ../src/screen.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 222, ../src/screen.scss */
+/* line 271, ../src/screen.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
 
-/* line 229, ../src/screen.scss */
+/* line 278, ../src/screen.scss */
 #footer {
   background: #fff;
 }
-/* line 231, ../src/screen.scss */
+/* line 280, ../src/screen.scss */
 #footer ul {
   list-style-image: none;
   list-style-type: none;
@@ -1681,25 +1748,25 @@ html, body {
   margin: 0px;
   padding: 0px;
 }
-/* line 236, ../src/screen.scss */
+/* line 285, ../src/screen.scss */
 #footer .column-1-2-3-4 {
   background: #bbb;
 }
-/* line 238, ../src/screen.scss */
+/* line 287, ../src/screen.scss */
 #footer .column-1-2-3-4 .content {
   padding-top: 10px;
   margin-bottom: 10px;
 }
-/* line 243, ../src/screen.scss */
+/* line 292, ../src/screen.scss */
 #footer h3 {
   margin-bottom: 0.5em;
 }
-/* line 246, ../src/screen.scss */
+/* line 295, ../src/screen.scss */
 #footer a {
   color: #000;
   text-decoration: none;
 }
-/* line 249, ../src/screen.scss */
+/* line 298, ../src/screen.scss */
 #footer a:hover {
   color: #7a0414;
 }
