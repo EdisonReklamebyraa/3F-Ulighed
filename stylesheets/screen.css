@@ -1682,7 +1682,7 @@ html, body {
 }
 /* line 227, ../src/screen.scss */
 .container .content .article .articlepicture .caption {
-  background: #bbb;
+  background: #dedede;
   padding: 5px;
 }
 /* line 233, ../src/screen.scss */
@@ -1712,12 +1712,12 @@ html, body {
 }
 /* line 251, ../src/screen.scss */
 .container .content .article .paragraph .picture .caption {
-  background: #bbb;
+  background: #dedede;
   padding: 5px;
 }
 /* line 258, ../src/screen.scss */
 .container .content .article .facts {
-  background: #bbb;
+  background: #dedede;
   padding: 5px;
 }
 /* line 263, ../src/screen.scss */
@@ -1754,7 +1754,7 @@ html, body {
 }
 /* line 288, ../src/screen.scss */
 #footer .column-1-2-3-4 {
-  background: #bbb;
+  background: #dedede;
 }
 /* line 290, ../src/screen.scss */
 #footer .column-1-2-3-4 .content {

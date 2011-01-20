@@ -225,7 +225,7 @@
 			.articlepicture {
 				margin-bottom: 10px;
 				.caption {
-					background: #bbb;
+					background: $default-background;
 					padding: 5px;
 				}
 
@@ -249,14 +249,14 @@
 						margin-bottom: 10px;
 					}
 					.caption {
-						background: #bbb;
+						background: $default-background;
 						padding: 5px;						
 					}
 				}
 				
 			}
 			.facts {
-				background: #bbb;
+				background: $default-background;
 				padding: 5px;				
 			}
 		}
@@ -286,7 +286,7 @@
   	padding: 0px;
   	}
 	.column-1-2-3-4 {
-		background: #bbb;
+		background: $default-background;
 		.content {
 			padding-top: 10px;
 			margin-bottom: 10px;		
