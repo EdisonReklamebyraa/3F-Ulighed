@@ -81,6 +81,295 @@ a img {
   border: none;
 }
 
+/* line 1, ../src/partials/_article.scss */
+.article {
+  overflow: hidden;
+}
+/* line 3, ../src/partials/_article.scss */
+.article a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 6, ../src/partials/_article.scss */
+.article a:hover {
+  color: #7a0414;
+}
+/* line 12, ../src/partials/_article.scss */
+.article .articlepicture .caption {
+  background: #dedede;
+  padding: 5px;
+}
+/* line 18, ../src/partials/_article.scss */
+.article .summary {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 22, ../src/partials/_article.scss */
+.article .paragraph {
+  margin-bottom: 20px;
+}
+/* line 24, ../src/partials/_article.scss */
+.article .paragraph .picture {
+  width: 200px;
+}
+/* line 26, ../src/partials/_article.scss */
+.article .paragraph .picture.fl {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 31, ../src/partials/_article.scss */
+.article .paragraph .picture.fr {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+/* line 36, ../src/partials/_article.scss */
+.article .paragraph .picture .caption {
+  background: #dedede;
+  padding: 5px;
+}
+/* line 41, ../src/partials/_article.scss */
+.article .paragraph .facts {
+  width: 200px;
+}
+/* line 43, ../src/partials/_article.scss */
+.article .paragraph .facts.fl {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 48, ../src/partials/_article.scss */
+.article .paragraph .facts.fr {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+/* line 56, ../src/partials/_article.scss */
+.article .byline {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c4c4c4;
+}
+/* line 60, ../src/partials/_article.scss */
+.article .byline a {
+  color: #7a0414;
+  text-decoration: none;
+}
+/* line 63, ../src/partials/_article.scss */
+.article .byline a:hover {
+  text-decoration: underline;
+}
+/* line 68, ../src/partials/_article.scss */
+.article .facts {
+  background: #dedede;
+  padding: 5px;
+}
+
+/* line 1, ../src/partials/_article-tools.scss */
+.article-tools {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 4, ../src/partials/_article-tools.scss */
+.article-tools ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 56, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.article-tools ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 45, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.article-tools ul li:first-child, .article-tools ul li.first {
+  padding-right: 0;
+}
+/* line 46, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.article-tools ul li:last-child, .article-tools ul li.last {
+  padding-left: 0;
+}
+
+/* line 1, ../src/partials/_menu.scss */
+.mainmenu {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 940px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 138, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
+* html .mainmenu {
+  overflow-x: hidden;
+}
+/* line 56, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.mainmenu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 45, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.mainmenu li:first-child, .mainmenu li.first {
+  padding-left: 0;
+}
+/* line 46, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.mainmenu li:last-child, .mainmenu li.last {
+  padding-right: 0;
+}
+/* line 4, ../src/partials/_menu.scss */
+.mainmenu li {
+  background-image: url('../images/menuBtn.png?1295343875');
+  background-position: 0px 0px;
+  height: 45px;
+  width: 188px;
+}
+/* line 9, ../src/partials/_menu.scss */
+.mainmenu li a {
+  font-size: 11px;
+  vertical-align: center;
+  height: 45px;
+  width: 188px;
+  display: block;
+  text-align: center;
+  padding-top: 11px;
+  color: #7a0414;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 20, ../src/partials/_menu.scss */
+.mainmenu li a:hover {
+  color: #fff;
+}
+/* line 24, ../src/partials/_menu.scss */
+.mainmenu li:hover {
+  background-position: 0px -45px;
+}
+/* line 28, ../src/partials/_menu.scss */
+.mainmenu li:first-child {
+  background-image: url('../images/menuBtnLeft.png?1295350291');
+  background-position: 0px 0px;
+  height: 45px;
+  width: 188px;
+}
+/* line 33, ../src/partials/_menu.scss */
+.mainmenu li:first-child:hover {
+  background-position: 0px -45px;
+}
+/* line 38, ../src/partials/_menu.scss */
+.mainmenu li:last-child {
+  background-image: url('../images/menuBtnRight.png?1295343896');
+  background-position: 0px 0px;
+  height: 45px;
+  width: 188px;
+}
+/* line 43, ../src/partials/_menu.scss */
+.mainmenu li:last-child:hover {
+  background-position: 0px -45px;
+}
+
+/* line 49, ../src/partials/_menu.scss */
+.submenu {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 940px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+/* line 138, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
+* html .submenu {
+  overflow-x: hidden;
+}
+/* line 56, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.submenu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 45, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.submenu li:first-child, .submenu li.first {
+  padding-left: 0;
+}
+/* line 46, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+.submenu li:last-child, .submenu li.last {
+  padding-right: 0;
+}
+/* line 54, ../src/partials/_menu.scss */
+.submenu a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 57, ../src/partials/_menu.scss */
+.submenu a:hover {
+  color: #7a0414;
+}
+
+/* line 1, ../src/partials/_footer.scss */
+#footer {
+  background: #fff;
+}
+/* line 3, ../src/partials/_footer.scss */
+#footer ul {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 8, ../src/partials/_footer.scss */
+#footer .column-1-2-3-4 {
+  background: #dedede;
+}
+/* line 10, ../src/partials/_footer.scss */
+#footer .column-1-2-3-4 .content {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 15, ../src/partials/_footer.scss */
+#footer h3 {
+  margin-bottom: 0.5em;
+}
+/* line 18, ../src/partials/_footer.scss */
+#footer a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 21, ../src/partials/_footer.scss */
+#footer a:hover {
+  color: #7a0414;
+}
+
 /* line 39, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/./_typography.scss */
 body {
   line-height: 1.5;
@@ -1268,7 +1557,7 @@ html, body {
   height: 130px;
 }
 
-/* line 22, ../src/screen.scss */
+/* line 4, ../src/screen.scss */
 #main {
   background-color: #f3f3f3;
   width: 940px;
@@ -1276,11 +1565,11 @@ html, body {
   margin-left: auto;
 }
 
-/* line 31, ../src/screen.scss */
+/* line 13, ../src/screen.scss */
 .container {
   /* @include showgrid("grid.png");*/
 }
-/* line 35, ../src/screen.scss */
+/* line 17, ../src/screen.scss */
 .container .header {
   /* background-image:image-url("header_bgimg.jpg");
   height: image-height("header_bgimg.jpg"); */
@@ -1289,13 +1578,13 @@ html, body {
   height: 50px;
   overflow: hidden;
 }
-/* line 40, ../src/screen.scss */
+/* line 22, ../src/screen.scss */
 .container .header img {
   float: left;
   padding-left: 10px;
   padding-top: 6px;
 }
-/* line 46, ../src/screen.scss */
+/* line 28, ../src/screen.scss */
 .container .header .topmenu {
   margin-top: 3px;
   display: inline;
@@ -1308,7 +1597,7 @@ html, body {
 * html .container .header .topmenu {
   overflow-x: hidden;
 }
-/* line 50, ../src/screen.scss */
+/* line 32, ../src/screen.scss */
 .container .header .topmenu ul {
   margin: 0;
   padding: 0;
@@ -1336,18 +1625,18 @@ html, body {
 .container .header .topmenu ul li:last-child, .container .header .topmenu ul li.last {
   padding-left: 0;
 }
-/* line 53, ../src/screen.scss */
+/* line 35, ../src/screen.scss */
 .container .header .topmenu a {
   color: white;
   font-size: 10px;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 60, ../src/screen.scss */
+/* line 42, ../src/screen.scss */
 .container .header .topmenu a:hover {
   text-decoration: underline;
 }
-/* line 66, ../src/screen.scss */
+/* line 48, ../src/screen.scss */
 .container .main {
   display: inline;
   float: left;
@@ -1358,140 +1647,7 @@ html, body {
 * html .container .main {
   overflow-x: hidden;
 }
-/* line 69, ../src/screen.scss */
-.container .mainmenu {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 940px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 138, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
-* html .container .mainmenu {
-  overflow-x: hidden;
-}
-/* line 56, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-.container .mainmenu li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-/* line 45, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-.container .mainmenu li:first-child, .container .mainmenu li.first {
-  padding-left: 0;
-}
-/* line 46, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-.container .mainmenu li:last-child, .container .mainmenu li.last {
-  padding-right: 0;
-}
-/* line 72, ../src/screen.scss */
-.container .mainmenu li {
-  background-image: url('../images/menuBtn.png?1295343875');
-  background-position: 0px 0px;
-  height: 45px;
-  width: 188px;
-}
-/* line 77, ../src/screen.scss */
-.container .mainmenu li a {
-  font-size: 11px;
-  vertical-align: center;
-  height: 45px;
-  width: 188px;
-  display: block;
-  text-align: center;
-  padding-top: 11px;
-  color: #7a0414;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-/* line 88, ../src/screen.scss */
-.container .mainmenu li a:hover {
-  color: #fff;
-}
-/* line 92, ../src/screen.scss */
-.container .mainmenu li:hover {
-  background-position: 0px -45px;
-}
-/* line 96, ../src/screen.scss */
-.container .mainmenu li:first-child {
-  background-image: url('../images/menuBtnLeft.png?1295350291');
-  background-position: 0px 0px;
-  height: 45px;
-  width: 188px;
-}
-/* line 101, ../src/screen.scss */
-.container .mainmenu li:first-child:hover {
-  background-position: 0px -45px;
-}
-/* line 106, ../src/screen.scss */
-.container .mainmenu li:last-child {
-  background-image: url('../images/menuBtnRight.png?1295343896');
-  background-position: 0px 0px;
-  height: 45px;
-  width: 188px;
-}
-/* line 111, ../src/screen.scss */
-.container .mainmenu li:last-child:hover {
-  background-position: 0px -45px;
-}
-/* line 117, ../src/screen.scss */
-.container .submenu {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 940px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  overflow: hidden;
-  *zoom: 1;
-  margin-left: 10px;
-  margin-bottom: 4px;
-}
-/* line 138, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/blueprint/stylesheets/./blueprint/_grid.scss */
-* html .container .submenu {
-  overflow-x: hidden;
-}
-/* line 56, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-.container .submenu li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-/* line 45, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-.container .submenu li:first-child, .container .submenu li.first {
-  padding-left: 0;
-}
-/* line 46, C:/Users/Thomas/Desktop/compass.app/lib/ruby/gem/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-.container .submenu li:last-child, .container .submenu li.last {
-  padding-right: 0;
-}
-/* line 122, ../src/screen.scss */
-.container .submenu a {
-  color: #000;
-  text-decoration: none;
-}
-/* line 125, ../src/screen.scss */
-.container .submenu a:hover {
-  color: #7a0414;
-}
-/* line 131, ../src/screen.scss */
+/* line 52, ../src/screen.scss */
 .container hr {
   background: #b1b1b1;
   color: #b1b1b1;
@@ -1503,7 +1659,7 @@ html, body {
   border: none;
   margin-bottom: 4px;
 }
-/* line 135, ../src/screen.scss */
+/* line 56, ../src/screen.scss */
 .container .column-1-2-3-4 {
   display: inline;
   float: left;
@@ -1518,11 +1674,11 @@ html, body {
 * html .container .column-1-2-3-4 {
   overflow-x: hidden;
 }
-/* line 141, ../src/screen.scss */
+/* line 62, ../src/screen.scss */
 .container .column-1-2-3-4.nobackground {
   background-image: none;
 }
-/* line 145, ../src/screen.scss */
+/* line 66, ../src/screen.scss */
 .container .column-1-2-3 {
   display: inline;
   float: left;
@@ -1533,7 +1689,7 @@ html, body {
 * html .container .column-1-2-3 {
   overflow-x: hidden;
 }
-/* line 148, ../src/screen.scss */
+/* line 69, ../src/screen.scss */
 .container .column-1-2 {
   display: inline;
   float: left;
@@ -1544,7 +1700,7 @@ html, body {
 * html .container .column-1-2 {
   overflow-x: hidden;
 }
-/* line 151, ../src/screen.scss */
+/* line 72, ../src/screen.scss */
 .container .column-3-4 {
   display: inline;
   float: left;
@@ -1555,7 +1711,7 @@ html, body {
 * html .container .column-3-4 {
   overflow-x: hidden;
 }
-/* line 154, ../src/screen.scss */
+/* line 75, ../src/screen.scss */
 .container .column-1 {
   display: inline;
   float: left;
@@ -1566,11 +1722,11 @@ html, body {
 * html .container .column-1 {
   overflow-x: hidden;
 }
-/* line 156, ../src/screen.scss */
+/* line 77, ../src/screen.scss */
 .container .column-1.last {
   margin-right: 0px;
 }
-/* line 160, ../src/screen.scss */
+/* line 81, ../src/screen.scss */
 .container .column-2 {
   display: inline;
   float: left;
@@ -1581,7 +1737,7 @@ html, body {
 * html .container .column-2 {
   overflow-x: hidden;
 }
-/* line 163, ../src/screen.scss */
+/* line 84, ../src/screen.scss */
 .container .column-3 {
   display: inline;
   float: left;
@@ -1592,7 +1748,7 @@ html, body {
 * html .container .column-3 {
   overflow-x: hidden;
 }
-/* line 166, ../src/screen.scss */
+/* line 87, ../src/screen.scss */
 .container .column-4 {
   display: inline;
   float: left;
@@ -1603,46 +1759,46 @@ html, body {
 * html .container .column-4 {
   overflow-x: hidden;
 }
-/* line 170, ../src/screen.scss */
+/* line 91, ../src/screen.scss */
 .container .content {
-  padding: 7px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
-/* line 172, ../src/screen.scss */
+/* line 93, ../src/screen.scss */
 .container .content p {
   clear: both;
 }
-/* line 175, ../src/screen.scss */
+/* line 96, ../src/screen.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 179, ../src/screen.scss */
+/* line 100, ../src/screen.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 183, ../src/screen.scss */
+/* line 104, ../src/screen.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 189, ../src/screen.scss */
+/* line 110, ../src/screen.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 194, ../src/screen.scss */
+/* line 115, ../src/screen.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 200, ../src/screen.scss */
+/* line 121, ../src/screen.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 202, ../src/screen.scss */
+/* line 123, ../src/screen.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -1654,164 +1810,41 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 206, ../src/screen.scss */
+/* line 127, ../src/screen.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 212, ../src/screen.scss */
+/* line 133, ../src/screen.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 215, ../src/screen.scss */
+/* line 136, ../src/screen.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 220, ../src/screen.scss */
+/* line 141, ../src/screen.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 224, ../src/screen.scss */
-.container .content .article {
-  overflow: hidden;
-}
-/* line 226, ../src/screen.scss */
-.container .content .article a {
-  text-decoration: none;
-  color: #000;
-}
-/* line 229, ../src/screen.scss */
-.container .content .article a:hover {
-  color: #7a0414;
-}
-/* line 234, ../src/screen.scss */
-.container .content .article .articlepicture {
-  margin-bottom: 10px;
-}
-/* line 236, ../src/screen.scss */
-.container .content .article .articlepicture .caption {
-  background: #dedede;
-  padding: 5px;
-}
-/* line 242, ../src/screen.scss */
-.container .content .article .summary {
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-/* line 246, ../src/screen.scss */
-.container .content .article .paragraph {
-  margin-bottom: 20px;
-}
-/* line 248, ../src/screen.scss */
-.container .content .article .paragraph .picture {
-  width: 200px;
-}
-/* line 250, ../src/screen.scss */
-.container .content .article .paragraph .picture.fl {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-/* line 255, ../src/screen.scss */
-.container .content .article .paragraph .picture.fr {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-/* line 260, ../src/screen.scss */
-.container .content .article .paragraph .picture .caption {
-  background: #dedede;
-  padding: 5px;
-}
-/* line 265, ../src/screen.scss */
-.container .content .article .paragraph .facts {
-  width: 200px;
-}
-/* line 267, ../src/screen.scss */
-.container .content .article .paragraph .facts.fl {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-/* line 272, ../src/screen.scss */
-.container .content .article .paragraph .facts.fr {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-/* line 280, ../src/screen.scss */
-.container .content .article .byline {
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #c4c4c4;
-}
-/* line 284, ../src/screen.scss */
-.container .content .article .byline a {
-  color: #7a0414;
-  text-decoration: none;
-}
-/* line 287, ../src/screen.scss */
-.container .content .article .byline a:hover {
-  text-decoration: underline;
-}
-/* line 292, ../src/screen.scss */
-.container .content .article .facts {
-  background: #dedede;
-  padding: 5px;
-}
-/* line 297, ../src/screen.scss */
+/* line 146, ../src/screen.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 301, ../src/screen.scss */
+/* line 150, ../src/screen.scss */
 .container .content .articlelist h2 {
   margin-bottom: 0px;
   clear: both;
 }
-/* line 305, ../src/screen.scss */
+/* line 154, ../src/screen.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 308, ../src/screen.scss */
+/* line 157, ../src/screen.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
-}
-
-/* line 315, ../src/screen.scss */
-#footer {
-  background: #fff;
-}
-/* line 317, ../src/screen.scss */
-#footer ul {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-  margin: 0px;
-  padding: 0px;
-}
-/* line 322, ../src/screen.scss */
-#footer .column-1-2-3-4 {
-  background: #dedede;
-}
-/* line 324, ../src/screen.scss */
-#footer .column-1-2-3-4 .content {
-  padding-top: 10px;
-  margin-bottom: 10px;
-}
-/* line 329, ../src/screen.scss */
-#footer h3 {
-  margin-bottom: 0.5em;
-}
-/* line 332, ../src/screen.scss */
-#footer a {
-  color: #000;
-  text-decoration: none;
-}
-/* line 335, ../src/screen.scss */
-#footer a:hover {
-  color: #7a0414;
 }

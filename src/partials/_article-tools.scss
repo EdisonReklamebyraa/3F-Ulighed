@@ -1,0 +1,7 @@
+.article-tools {
+	padding-left: 10px;
+	padding-right: 10px;
+	ul {
+		@include horizontal-list(5px,right);
+	}
+}
