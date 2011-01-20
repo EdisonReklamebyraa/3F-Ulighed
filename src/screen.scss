@@ -188,6 +188,7 @@
 			}
 		}
 		.links {
+			margin-bottom: 20px;
 			ul {
 				@include pretty-bullets("bullet-arrow.png", 8px, 8px, 30px, 20px);
 				padding: 0px;
@@ -205,6 +206,21 @@
 					color: #7a0414;
 				}
 
+			}
+		}
+		.articlelist {
+			display: block;
+			overflow: hidden;
+			margin-bottom: 10px;
+			h2 {
+				margin-bottom: 0px;
+				clear: both;
+			}
+			a {
+				color: #7a0414;
+			}
+			p {
+				margin-bottom: 0px;
 			}
 		}
 	}
