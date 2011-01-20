@@ -37,12 +37,6 @@
 		height: image-height("header_bgimg.jpg"); */
 		@include sprite-background("header_bgimg.jpg",image-width("header_bgimg.jpg"),image-height("header_bgimg.jpg"));
 
-		img {
-			position: relative;
-			left: 10px;
-			top: 6px;
-
-		}
 		.topmenu {
 			margin-top: 3px;
 			@include column(8);
