@@ -23,7 +23,9 @@
   a[href$=".pdf"],
   a[href$=".PDF"],
   a[href$=".doc"],
+  a[href$=".DOC"],
   a[href$=".xls"],
+  a[href$=".XLS"],
   a[href$=".rss"],
   a[href$=".rdf"],
   a[href^="aim:"]          { @include link-icon-base; }
@@ -32,7 +34,9 @@
   a[href^="http:"]:visited { @include link-icon("visited.png", false); }
   a[href$=".PDF"],
   a[href$=".pdf"]          { @include link-icon("pdf.png", false); }
+  a[href$=".DOC"],
   a[href$=".doc"]          { @include link-icon("doc.png", false); }
+  a[href$=".XLS"],
   a[href$=".xls"]          { @include link-icon("xls.png", false); }
   a[href$=".rss"],
   a[href$=".rdf"]          { @include link-icon("feed.png", false); }
