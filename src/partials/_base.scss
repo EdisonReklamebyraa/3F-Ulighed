@@ -29,6 +29,7 @@ $top-right-menuseparator: "toprightmenu_separator.png";
 @import "compass/utilities/sprites/sprite-img";
 @import "compass/layout/sticky-footer";
 @import "compass/utilities/lists/bullets";
+@import "partials/link-icons";
 
 @import "partials/typography";
 @import "partials/article";
@@ -39,6 +40,7 @@ $top-right-menuseparator: "toprightmenu_separator.png";
 @include blueprint;
 @include typography;
 @include sticky-footer(130px, "#main", "#main_footer", "#footer");
+
 
 
 

@@ -69,4 +69,17 @@
 		background: $default-background;
 		padding: 5px;				
 	}
+	.box {
+		dd {
+			margin: 0 0 6px 0;
+			padding-bottom: 6px;
+			border-bottom: 1px solid $default-bordercolor;
+			h3 {
+				font-size: 1em;
+				margin-bottom: 4px;
+			}
+			@include link-icons;
+		}
+
+	}
 }
