@@ -433,6 +433,10 @@ a img {
 .submenu a:hover {
   color: #7a0414;
 }
+/* line 63, ../src/partials/_menu.scss */
+.submenu .active a {
+  color: #7a0414;
+}
 
 /* line 1, ../src/partials/_footer.scss */
 #footer {
