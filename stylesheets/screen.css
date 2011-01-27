@@ -378,11 +378,15 @@ a img {
   width: 188px;
 }
 /* line 44, ../src/partials/_menu.scss */
-.mainmenu li:last-child:hover {
+.mainmenu li:last-child:hover, .mainmenu li:last-child.active {
   background-position: 0px -45px;
 }
+/* line 46, ../src/partials/_menu.scss */
+.mainmenu li:last-child:hover a, .mainmenu li:last-child.active a {
+  color: #fff;
+}
 
-/* line 50, ../src/partials/_menu.scss */
+/* line 51, ../src/partials/_menu.scss */
 .submenu {
   display: inline;
   float: left;
@@ -420,12 +424,12 @@ a img {
 .submenu li:last-child, .submenu li.last {
   padding-right: 0;
 }
-/* line 55, ../src/partials/_menu.scss */
+/* line 56, ../src/partials/_menu.scss */
 .submenu a {
   color: #000;
   text-decoration: none;
 }
-/* line 58, ../src/partials/_menu.scss */
+/* line 59, ../src/partials/_menu.scss */
 .submenu a:hover {
   color: #7a0414;
 }
