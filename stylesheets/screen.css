@@ -424,17 +424,45 @@ a img {
 .submenu li:last-child, .submenu li.last {
   padding-right: 0;
 }
-/* line 56, ../src/partials/_menu.scss */
+/* line 57, ../src/partials/_menu.scss */
 .submenu a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
-/* line 59, ../src/partials/_menu.scss */
+/* line 18, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu a:visited {
+  color: black;
+}
+/* line 21, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu a:focus {
+  color: #7a0414;
+}
+/* line 24, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .submenu a:hover {
   color: #7a0414;
 }
-/* line 63, ../src/partials/_menu.scss */
+/* line 27, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu a:active {
+  color: #7a0414;
+}
+/* line 61, ../src/partials/_menu.scss */
 .submenu .active a {
+  color: #7a0414;
+}
+/* line 18, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu .active a:visited {
+  color: black;
+}
+/* line 21, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu .active a:focus {
+  color: #7a0414;
+}
+/* line 24, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu .active a:hover {
+  color: #7a0414;
+}
+/* line 27, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.submenu .active a:active {
   color: #7a0414;
 }
 

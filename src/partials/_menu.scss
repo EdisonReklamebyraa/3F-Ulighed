@@ -51,17 +51,15 @@
 	.submenu {
 		@include column(16,true);
 		@include horizontal-list(10px,left);
+
 		margin-left: 10px;
 		margin-bottom: 4px;
 		a {
-			color: #000;
+			@include link-colors(#000, #7a0414, #7a0414, #000, #7a0414);
 			text-decoration: none;
-			&:hover {
-				color: #7a0414;
-			}
 		}
 		.active a{
-			color: #7a0414;
+			@include link-colors(#7a0414, #7a0414, #7a0414, #000, #7a0414);
 		}
 
 	}
