@@ -352,33 +352,37 @@ a img {
   color: #fff;
 }
 /* line 24, ../src/partials/_menu.scss */
-.mainmenu li:hover {
+.mainmenu li:hover, .mainmenu li.active {
   background-position: 0px -45px;
 }
-/* line 28, ../src/partials/_menu.scss */
+/* line 26, ../src/partials/_menu.scss */
+.mainmenu li:hover a, .mainmenu li.active a {
+  color: #fff;
+}
+/* line 29, ../src/partials/_menu.scss */
 .mainmenu li:first-child {
   background-image: url('../images/menuBtnLeft.png?1295350291');
   background-position: 0px 0px;
   height: 45px;
   width: 188px;
 }
-/* line 33, ../src/partials/_menu.scss */
+/* line 34, ../src/partials/_menu.scss */
 .mainmenu li:first-child:hover {
   background-position: 0px -45px;
 }
-/* line 38, ../src/partials/_menu.scss */
+/* line 39, ../src/partials/_menu.scss */
 .mainmenu li:last-child {
   background-image: url('../images/menuBtnRight.png?1295343896');
   background-position: 0px 0px;
   height: 45px;
   width: 188px;
 }
-/* line 43, ../src/partials/_menu.scss */
+/* line 44, ../src/partials/_menu.scss */
 .mainmenu li:last-child:hover {
   background-position: 0px -45px;
 }
 
-/* line 49, ../src/partials/_menu.scss */
+/* line 50, ../src/partials/_menu.scss */
 .submenu {
   display: inline;
   float: left;
@@ -416,12 +420,12 @@ a img {
 .submenu li:last-child, .submenu li.last {
   padding-right: 0;
 }
-/* line 54, ../src/partials/_menu.scss */
+/* line 55, ../src/partials/_menu.scss */
 .submenu a {
   color: #000;
   text-decoration: none;
 }
-/* line 57, ../src/partials/_menu.scss */
+/* line 58, ../src/partials/_menu.scss */
 .submenu a:hover {
   color: #7a0414;
 }

@@ -21,8 +21,9 @@
 					color: #fff;
 				}
 			}
-			&:hover {
+			&:hover,&.active {
 				@include sprite-row(2,image-height("menuBtn.png")/2);
+				a {color: #fff;}
 			}
 		}
 		li:first-child {
