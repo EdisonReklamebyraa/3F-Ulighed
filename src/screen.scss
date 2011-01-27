@@ -13,7 +13,7 @@
 .container {
 	
 	
-	/* @include showgrid("grid.png");*/
+	@include showgrid("grid.png");
 	.header {
 		/* background-image:image-url("header_bgimg.jpg");
 		height: image-height("header_bgimg.jpg"); */
@@ -68,6 +68,41 @@
 	}
 	.column-1-2 {
 		@include column(8);
+		.pagination {
+		    @include column(8,true);
+		    left: 0;
+		    position: relative;
+		    height: 25px;
+		    top: 0;	
+	 		border-bottom: 1px solid $default-bordercolor;
+	 		overflow: hidden;
+			a {
+			text-decoration: none;
+			color: #000;
+				&:hover {
+					color: #7a0414;
+				}
+
+			}
+
+			.paginationinner {
+				padding: 0 10px 0 10px;
+				.paginationLeft {
+					position: absolute;
+				    top: 0;				
+				}
+				.paginationCenter {
+					text-align: center;
+					line-height: 20px;
+
+				}
+				.paginationRight {
+					position: absolute;
+					right: 10px;
+					top: 0px;
+				}
+			}
+		}
 	}
 	.column-3-4 {
 		@include column(8,true);
@@ -90,6 +125,12 @@
 
 	.content {
 		padding: 10px 10px 10px 10px;
+		overflow: hidden;
+		.columns {
+			.column-1 {
+				width: 210px;
+			}
+		}
 		p {
 			clear: both;
 		}
@@ -118,6 +159,7 @@
 				margin-bottom: 10px;
 			}
 		}
+
 		.links {
 			margin-bottom: 20px;
 			ul {
