@@ -129,7 +129,17 @@
 		.columns {
 			.column-1 {
 				width: 210px;
+			} 
+			
+		} 
+		a {
+		text-decoration: none;
+		color: #7a0414;
+			&:hover {
+				color: #7a0414;  
+				text-decoration: underline; 
 			}
+
 		}
 		p {
 			clear: both;
@@ -200,6 +210,22 @@
 				margin-bottom: 0px;
 			}
 		}
+	} 
+	
+	.column-1
+	{
+			ul
+			{    
+				margin: 0;
+				padding: 10px;
+					li
+					{
+						padding: 0 0 10px 0 ;
+						margin:  0 10px;
+					}
+				
+			}
+		
 	}
 
 }

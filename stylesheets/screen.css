@@ -85,87 +85,78 @@ a img {
 .article {
   overflow: hidden;
 }
-/* line 3, ../src/partials/_article.scss */
-.article a {
-  text-decoration: none;
-  color: #000;
-}
-/* line 6, ../src/partials/_article.scss */
-.article a:hover {
-  color: #7a0414;
-}
-/* line 12, ../src/partials/_article.scss */
+/* line 5, ../src/partials/_article.scss */
 .article .articlepicture .caption {
   background: #dedede;
   padding: 5px;
 }
-/* line 18, ../src/partials/_article.scss */
+/* line 11, ../src/partials/_article.scss */
 .article .summary {
   font-weight: bold;
   margin-bottom: 20px;
 }
-/* line 22, ../src/partials/_article.scss */
+/* line 15, ../src/partials/_article.scss */
 .article .paragraph {
   margin-bottom: 20px;
 }
-/* line 24, ../src/partials/_article.scss */
+/* line 17, ../src/partials/_article.scss */
 .article .paragraph .picture {
   width: 200px;
 }
-/* line 26, ../src/partials/_article.scss */
+/* line 19, ../src/partials/_article.scss */
 .article .paragraph .picture.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 31, ../src/partials/_article.scss */
+/* line 24, ../src/partials/_article.scss */
 .article .paragraph .picture.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 36, ../src/partials/_article.scss */
+/* line 29, ../src/partials/_article.scss */
 .article .paragraph .picture .caption {
   background: #dedede;
   padding: 5px;
 }
-/* line 41, ../src/partials/_article.scss */
+/* line 34, ../src/partials/_article.scss */
 .article .paragraph .facts {
   width: 200px;
 }
-/* line 43, ../src/partials/_article.scss */
+/* line 36, ../src/partials/_article.scss */
 .article .paragraph .facts.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 48, ../src/partials/_article.scss */
+/* line 41, ../src/partials/_article.scss */
 .article .paragraph .facts.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 56, ../src/partials/_article.scss */
+/* line 49, ../src/partials/_article.scss */
 .article .byline {
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 60, ../src/partials/_article.scss */
+/* line 53, ../src/partials/_article.scss */
 .article .byline a {
   color: #7a0414;
   text-decoration: none;
 }
-/* line 63, ../src/partials/_article.scss */
+/* line 56, ../src/partials/_article.scss */
 .article .byline a:hover {
   text-decoration: underline;
 }
-/* line 68, ../src/partials/_article.scss */
+/* line 61, ../src/partials/_article.scss */
 .article .facts {
   background: #dedede;
   padding: 5px;
 }
-/* line 72, ../src/partials/_article.scss */
+/* line 65, ../src/partials/_article.scss */
 .article .facts ul {
   list-style-image: none;
   list-style-type: none;
@@ -173,13 +164,13 @@ a img {
   padding: 0;
   margin: 0;
 }
-/* line 80, ../src/partials/_article.scss */
+/* line 73, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 84, ../src/partials/_article.scss */
+/* line 77, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;
@@ -1953,42 +1944,52 @@ html, body {
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 134, ../src/screen.scss */
+/* line 135, ../src/screen.scss */
+.container .content a {
+  text-decoration: none;
+  color: #7a0414;
+}
+/* line 138, ../src/screen.scss */
+.container .content a:hover {
+  color: #7a0414;
+  text-decoration: underline;
+}
+/* line 144, ../src/screen.scss */
 .container .content p {
   clear: both;
 }
-/* line 137, ../src/screen.scss */
+/* line 147, ../src/screen.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 141, ../src/screen.scss */
+/* line 151, ../src/screen.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 145, ../src/screen.scss */
+/* line 155, ../src/screen.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 151, ../src/screen.scss */
+/* line 161, ../src/screen.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 156, ../src/screen.scss */
+/* line 166, ../src/screen.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 163, ../src/screen.scss */
+/* line 173, ../src/screen.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 165, ../src/screen.scss */
+/* line 175, ../src/screen.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2000,41 +2001,51 @@ html, body {
   background: url('../images/bullet-arrow.png?1296208624') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 169, ../src/screen.scss */
+/* line 179, ../src/screen.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 175, ../src/screen.scss */
+/* line 185, ../src/screen.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 178, ../src/screen.scss */
+/* line 188, ../src/screen.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 183, ../src/screen.scss */
+/* line 193, ../src/screen.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 188, ../src/screen.scss */
+/* line 198, ../src/screen.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 192, ../src/screen.scss */
+/* line 202, ../src/screen.scss */
 .container .content .articlelist h2 {
   margin-bottom: 0px;
   clear: both;
 }
-/* line 196, ../src/screen.scss */
+/* line 206, ../src/screen.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 199, ../src/screen.scss */
+/* line 209, ../src/screen.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
+}
+/* line 218, ../src/screen.scss */
+.container .column-1 ul {
+  margin: 0;
+  padding: 10px;
+}
+/* line 222, ../src/screen.scss */
+.container .column-1 ul li {
+  padding: 0 0 10px 0;
+  margin: 0 10px;
 }

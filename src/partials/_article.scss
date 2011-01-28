@@ -1,13 +1,6 @@
 .article {
 	overflow: hidden;
-	a {
-	text-decoration: none;
-	color: #000;
-		&:hover {
-			color: #7a0414;
-		}
-
-	}
+	
 	.articlepicture {
 		.caption {
 			background: $default-background;
