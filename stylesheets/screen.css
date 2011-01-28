@@ -165,13 +165,21 @@ a img {
   background: #dedede;
   padding: 5px;
 }
-/* line 73, ../src/partials/_article.scss */
+/* line 72, ../src/partials/_article.scss */
+.article .facts ul {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0;
+  margin: 0;
+}
+/* line 80, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 77, ../src/partials/_article.scss */
+/* line 84, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;

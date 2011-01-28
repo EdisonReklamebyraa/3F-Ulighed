@@ -68,6 +68,13 @@
 	.facts {
 		background: $default-background;
 		padding: 5px;				
+		ul
+		{
+			@include no-bullet;  
+			padding: 0;
+			margin: 0;
+			
+		}
 	}
 	.box {
 		dd {
