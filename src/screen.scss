@@ -13,7 +13,7 @@
 .container {
 	
 	
-	@include showgrid("grid.png");
+	/* @include showgrid("grid.png"); */
 	.header {
 		/* background-image:image-url("header_bgimg.jpg");
 		height: image-height("header_bgimg.jpg"); */
@@ -140,6 +140,9 @@
 				text-decoration: underline; 
 			}
 
+		}
+		div {
+			overflow: hidden;
 		}
 		p {
 			clear: both;
