@@ -2043,13 +2043,15 @@ html, body {
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 221, ../src/screen.scss */
-.container .column-1 ul {
+/* line 222, ../src/screen.scss */
+.container .column-1 ul,
+.container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 225, ../src/screen.scss */
-.container .column-1 ul li {
+/* line 226, ../src/screen.scss */
+.container .column-1 ul li,
+.container .column-3-4 ul li {
   padding: 0 0 10px 0;
   margin: 0 10px;
 }
