@@ -1706,7 +1706,7 @@ html, body {
 
 /* line 13, ../src/screen.scss */
 .container {
-  background: url('../images/grid.png?1295260703');
+  /* @include showgrid("grid.png"); */
 }
 /* line 17, ../src/screen.scss */
 .container .header {
