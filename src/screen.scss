@@ -126,7 +126,7 @@
 	.content {
 		padding: 10px 10px 10px 10px;
 		overflow: hidden;
-		line-height: 1.1;    
+		 
 		.columns {
 			.column-1 {
 				width: 210px;
@@ -149,10 +149,12 @@
 		h1 {
 			color: #7a0414;
 			font-weight: bold;
+			line-height: 1.1;   
 		}
 		h2 {
 			color: #7a0414;
-			font-weight: bold;    
+			font-weight: bold;  
+			line-height: 1.1;     
 			
 		}	
 		h3 {
