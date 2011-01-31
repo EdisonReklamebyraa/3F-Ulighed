@@ -126,24 +126,37 @@
 	.content {
 		padding: 10px 10px 10px 10px;
 		overflow: hidden;
+		 
 		.columns {
 			.column-1 {
 				width: 210px;
+			} 
+			
+		} 
+		a {
+		text-decoration: none;
+		color: #7a0414;
+			&:hover {
+				color: #7a0414;  
+				text-decoration: underline; 
 			}
+
 		}
-		div {
-			overflow: hidden;
+		.row {
+			overflow: hidden; 
+			padding: 0 0 10px 0;
 		}
-		p {
-			clear: both;
-		}
+
 		h1 {
 			color: #7a0414;
 			font-weight: bold;
+			line-height: 1.1;   
 		}
 		h2 {
 			color: #7a0414;
-			font-weight: bold;
+			font-weight: bold;  
+			line-height: 1.1;     
+			
 		}	
 		h3 {
 			color: #7a0414;
@@ -203,6 +216,23 @@
 				margin-bottom: 0px;
 			}
 		}
+	} 
+	
+	.column-1,
+	.column-3-4
+	{
+			ul
+			{    
+				margin: 0;
+				padding: 10px;
+					li
+					{
+						padding: 0 0 10px 0 ;
+						margin:  0 10px;
+					}
+				
+			}
+		
 	}
 
 }
