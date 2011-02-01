@@ -159,9 +159,6 @@ a img {
 }
 /* line 66, ../src/partials/_article.scss */
 .article .facts ul {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
   padding: 0;
   margin: 0;
 }
@@ -2057,7 +2054,7 @@ html, body {
 .container .content .articlelist {
   display: block;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
 }
 /* line 219, ../src/screen.scss */
 .container .content .articlelist h2 {
