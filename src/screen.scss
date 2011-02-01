@@ -62,9 +62,7 @@
 		&.nobackground {
 			background-image: none;
 		}
-		.active a{
-			@include link-colors(#7a0414, #7a0414, #7a0414, #7a0414, #7a0414);
-		}
+
 		
 	}
 	.column-1-2-3 {

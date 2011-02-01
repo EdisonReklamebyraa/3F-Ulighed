@@ -499,6 +499,26 @@ a img {
 #footer a:hover {
   color: #7a0414;
 }
+/* line 25, ../src/partials/_footer.scss */
+#footer .active a {
+  color: #7a0414;
+}
+/* line 18, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#footer .active a:visited {
+  color: #7a0414;
+}
+/* line 21, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#footer .active a:focus {
+  color: #7a0414;
+}
+/* line 24, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#footer .active a:hover {
+  color: #7a0414;
+}
+/* line 27, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#footer .active a:active {
+  color: #7a0414;
+}
 
 /* line 39, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
@@ -1808,27 +1828,7 @@ html, body {
 .container .column-1-2-3-4.nobackground {
   background-image: none;
 }
-/* line 65, ../src/screen.scss */
-.container .column-1-2-3-4 .active a {
-  color: #7a0414;
-}
-/* line 18, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
-.container .column-1-2-3-4 .active a:visited {
-  color: #7a0414;
-}
-/* line 21, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
-.container .column-1-2-3-4 .active a:focus {
-  color: #7a0414;
-}
-/* line 24, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
-.container .column-1-2-3-4 .active a:hover {
-  color: #7a0414;
-}
-/* line 27, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
-.container .column-1-2-3-4 .active a:active {
-  color: #7a0414;
-}
-/* line 70, ../src/screen.scss */
+/* line 68, ../src/screen.scss */
 .container .column-1-2-3 {
   display: inline;
   float: left;
@@ -1839,7 +1839,7 @@ html, body {
 * html .container .column-1-2-3 {
   overflow-x: hidden;
 }
-/* line 73, ../src/screen.scss */
+/* line 71, ../src/screen.scss */
 .container .column-1-2 {
   display: inline;
   float: left;
@@ -1850,7 +1850,7 @@ html, body {
 * html .container .column-1-2 {
   overflow-x: hidden;
 }
-/* line 75, ../src/screen.scss */
+/* line 73, ../src/screen.scss */
 .container .column-1-2 .pagination {
   display: inline;
   float: left;
@@ -1867,36 +1867,36 @@ html, body {
 * html .container .column-1-2 .pagination {
   overflow-x: hidden;
 }
-/* line 83, ../src/screen.scss */
+/* line 81, ../src/screen.scss */
 .container .column-1-2 .pagination a {
   text-decoration: none;
   color: #000;
 }
-/* line 86, ../src/screen.scss */
+/* line 84, ../src/screen.scss */
 .container .column-1-2 .pagination a:hover {
   color: #7a0414;
 }
-/* line 92, ../src/screen.scss */
+/* line 90, ../src/screen.scss */
 .container .column-1-2 .pagination .paginationinner {
   padding: 0 10px 0 10px;
 }
-/* line 94, ../src/screen.scss */
+/* line 92, ../src/screen.scss */
 .container .column-1-2 .pagination .paginationinner .paginationLeft {
   position: absolute;
   top: 0;
 }
-/* line 98, ../src/screen.scss */
+/* line 96, ../src/screen.scss */
 .container .column-1-2 .pagination .paginationinner .paginationCenter {
   text-align: center;
   line-height: 20px;
 }
-/* line 103, ../src/screen.scss */
+/* line 101, ../src/screen.scss */
 .container .column-1-2 .pagination .paginationinner .paginationRight {
   position: absolute;
   right: 10px;
   top: 0px;
 }
-/* line 111, ../src/screen.scss */
+/* line 109, ../src/screen.scss */
 .container .column-3-4 {
   display: inline;
   float: left;
@@ -1907,7 +1907,7 @@ html, body {
 * html .container .column-3-4 {
   overflow-x: hidden;
 }
-/* line 114, ../src/screen.scss */
+/* line 112, ../src/screen.scss */
 .container .column-1, .container .column {
   display: inline;
   float: left;
@@ -1918,11 +1918,11 @@ html, body {
 * html .container .column-1, * html .container .column {
   overflow-x: hidden;
 }
-/* line 116, ../src/screen.scss */
+/* line 114, ../src/screen.scss */
 .container .column-1.last, .container .column-1:last-child, .container .column.last, .container .column:last-child {
   margin-right: 0px;
 }
-/* line 120, ../src/screen.scss */
+/* line 118, ../src/screen.scss */
 .container .column-2 {
   display: inline;
   float: left;
@@ -1933,7 +1933,7 @@ html, body {
 * html .container .column-2 {
   overflow-x: hidden;
 }
-/* line 123, ../src/screen.scss */
+/* line 121, ../src/screen.scss */
 .container .column-3 {
   display: inline;
   float: left;
@@ -1944,7 +1944,7 @@ html, body {
 * html .container .column-3 {
   overflow-x: hidden;
 }
-/* line 126, ../src/screen.scss */
+/* line 124, ../src/screen.scss */
 .container .column-4 {
   display: inline;
   float: left;
@@ -1955,64 +1955,64 @@ html, body {
 * html .container .column-4 {
   overflow-x: hidden;
 }
-/* line 130, ../src/screen.scss */
+/* line 128, ../src/screen.scss */
 .container .content {
   padding: 10px 10px 10px 10px;
   overflow: hidden;
 }
-/* line 135, ../src/screen.scss */
+/* line 133, ../src/screen.scss */
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 140, ../src/screen.scss */
+/* line 138, ../src/screen.scss */
 .container .content a {
   text-decoration: none;
   color: #7a0414;
 }
-/* line 143, ../src/screen.scss */
+/* line 141, ../src/screen.scss */
 .container .content a:hover {
   color: #7a0414;
   text-decoration: underline;
 }
-/* line 149, ../src/screen.scss */
+/* line 147, ../src/screen.scss */
 .container .content .row {
   overflow: hidden;
   padding: 0 0 10px 0;
 }
-/* line 154, ../src/screen.scss */
+/* line 152, ../src/screen.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 159, ../src/screen.scss */
+/* line 157, ../src/screen.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 165, ../src/screen.scss */
+/* line 163, ../src/screen.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 171, ../src/screen.scss */
+/* line 169, ../src/screen.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 176, ../src/screen.scss */
+/* line 174, ../src/screen.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 183, ../src/screen.scss */
+/* line 181, ../src/screen.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 185, ../src/screen.scss */
+/* line 183, ../src/screen.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2024,51 +2024,51 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 189, ../src/screen.scss */
+/* line 187, ../src/screen.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 195, ../src/screen.scss */
+/* line 193, ../src/screen.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 198, ../src/screen.scss */
+/* line 196, ../src/screen.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 203, ../src/screen.scss */
+/* line 201, ../src/screen.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 208, ../src/screen.scss */
+/* line 206, ../src/screen.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 212, ../src/screen.scss */
+/* line 210, ../src/screen.scss */
 .container .content .articlelist h2 {
   margin-bottom: 0px;
   clear: both;
 }
-/* line 216, ../src/screen.scss */
+/* line 214, ../src/screen.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 219, ../src/screen.scss */
+/* line 217, ../src/screen.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 229, ../src/screen.scss */
+/* line 227, ../src/screen.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 233, ../src/screen.scss */
+/* line 231, ../src/screen.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;
