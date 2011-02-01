@@ -41,7 +41,7 @@ $top-right-menuseparator: "toprightmenu_separator.png";
 @include typography;
 @include sticky-footer(120px, "#main", "#main_footer", "#footer");
 
-
+@import "partials/content";    
 
 
 // If you change your grid column dimensions
