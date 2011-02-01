@@ -98,7 +98,7 @@ a img {
 /* line 15, ../src/partials/_article.scss */
 .article .paragraph {
   margin-bottom: 20px;
-  overflow: auto;
+  overflow: hidden;
 }
 /* line 18, ../src/partials/_article.scss */
 .article .paragraph .picture {
