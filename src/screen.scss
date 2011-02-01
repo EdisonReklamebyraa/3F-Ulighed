@@ -78,6 +78,15 @@
 		    top: 0;	
 	 		border-bottom: 1px solid $default-bordercolor;
 	 		overflow: hidden;
+			&.bottom
+			{
+				 border-top: 1px solid $default-bordercolor;
+				 padding-top: 7px;    
+				.paginationinner .paginationRight, .paginationinner .paginationLeft {
+					top: 7px;
+				}
+				
+			}
 			a {
 			text-decoration: none;
 			color: #000;
