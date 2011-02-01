@@ -2052,7 +2052,7 @@ html, body {
 }
 /* line 210, ../src/screen.scss */
 .container .content .articlelist h2 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   clear: both;
 }
 /* line 214, ../src/screen.scss */
