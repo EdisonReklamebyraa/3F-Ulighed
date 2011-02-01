@@ -13,7 +13,8 @@
 		margin-bottom: 20px;
 	}
 	.paragraph {
-		margin-bottom: 20px;
+		margin-bottom: 20px;     
+		overflow: auto;
 		.picture {
 			width: 200px;
 			&.fl {
