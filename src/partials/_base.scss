@@ -39,7 +39,7 @@ $top-right-menuseparator: "toprightmenu_separator.png";
 
 @include blueprint;
 @include typography;
-@include sticky-footer(130px, "#main", "#main_footer", "#footer");
+@include sticky-footer(120px, "#main", "#main_footer", "#footer");
 
 
 

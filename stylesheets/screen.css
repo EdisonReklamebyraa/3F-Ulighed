@@ -1694,18 +1694,18 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -130px;
+  margin-bottom: -120px;
 }
 /* line 18, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #main #main_footer {
-  height: 130px;
+  height: 120px;
 }
 
 /* line 20, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 130px;
+  height: 120px;
 }
 
 /* line 4, ../src/screen.scss */
