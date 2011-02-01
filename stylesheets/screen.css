@@ -2063,22 +2063,23 @@ html, body {
 .container .content .articlelist h2 {
   margin-bottom: 10px;
   clear: both;
+  min-height: 54px;
 }
-/* line 223, ../src/screen.scss */
+/* line 224, ../src/screen.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 226, ../src/screen.scss */
+/* line 227, ../src/screen.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 236, ../src/screen.scss */
+/* line 237, ../src/screen.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 240, ../src/screen.scss */
+/* line 241, ../src/screen.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;
