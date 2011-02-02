@@ -131,53 +131,58 @@ a img {
 }
 /* line 43, ../src/partials/_article.scss */
 .article .paragraph .facts ul {
-  padding: 0;
   margin: 0;
+  padding: 10px;
 }
-/* line 49, ../src/partials/_article.scss */
+/* line 47, ../src/partials/_article.scss */
+.article .paragraph .facts ul li {
+  padding: 0 0 10px 0;
+  margin: 0 10px;
+}
+/* line 53, ../src/partials/_article.scss */
 .article .paragraph .facts.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 54, ../src/partials/_article.scss */
+/* line 58, ../src/partials/_article.scss */
 .article .paragraph .facts.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 62, ../src/partials/_article.scss */
+/* line 66, ../src/partials/_article.scss */
 .article .byline {
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 66, ../src/partials/_article.scss */
+/* line 70, ../src/partials/_article.scss */
 .article .byline a {
   color: #7a0414;
   text-decoration: none;
 }
-/* line 69, ../src/partials/_article.scss */
+/* line 73, ../src/partials/_article.scss */
 .article .byline a:hover {
   text-decoration: underline;
 }
-/* line 74, ../src/partials/_article.scss */
+/* line 78, ../src/partials/_article.scss */
 .article .facts {
   background: #dedede;
   padding: 5px;
 }
-/* line 78, ../src/partials/_article.scss */
+/* line 82, ../src/partials/_article.scss */
 .article .facts ul {
   padding: 0;
   margin: 0;
 }
-/* line 86, ../src/partials/_article.scss */
+/* line 90, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 90, ../src/partials/_article.scss */
+/* line 94, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;
