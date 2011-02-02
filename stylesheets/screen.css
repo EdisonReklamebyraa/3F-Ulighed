@@ -90,73 +90,77 @@ a img {
   background: #dedede;
   padding: 5px;
 }
-/* line 11, ../src/partials/_article.scss */
+/* line 12, ../src/partials/_article.scss */
+.article .dynamik div {
+  margin-bottom: 10px;
+}
+/* line 16, ../src/partials/_article.scss */
 .article .summary {
   font-weight: bold;
   margin-bottom: 20px;
 }
-/* line 15, ../src/partials/_article.scss */
+/* line 20, ../src/partials/_article.scss */
 .article .paragraph {
   margin-bottom: 20px;
 }
-/* line 17, ../src/partials/_article.scss */
+/* line 22, ../src/partials/_article.scss */
 .article .paragraph .picture {
   width: 200px;
 }
-/* line 19, ../src/partials/_article.scss */
+/* line 24, ../src/partials/_article.scss */
 .article .paragraph .picture.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 24, ../src/partials/_article.scss */
+/* line 29, ../src/partials/_article.scss */
 .article .paragraph .picture.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 29, ../src/partials/_article.scss */
+/* line 34, ../src/partials/_article.scss */
 .article .paragraph .picture .caption {
   background: #dedede;
   padding: 5px;
 }
-/* line 34, ../src/partials/_article.scss */
+/* line 39, ../src/partials/_article.scss */
 .article .paragraph .facts {
   width: 200px;
 }
-/* line 36, ../src/partials/_article.scss */
+/* line 41, ../src/partials/_article.scss */
 .article .paragraph .facts.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 41, ../src/partials/_article.scss */
+/* line 46, ../src/partials/_article.scss */
 .article .paragraph .facts.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 49, ../src/partials/_article.scss */
+/* line 54, ../src/partials/_article.scss */
 .article .byline {
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 53, ../src/partials/_article.scss */
+/* line 58, ../src/partials/_article.scss */
 .article .byline a {
   color: #7a0414;
   text-decoration: none;
 }
-/* line 56, ../src/partials/_article.scss */
+/* line 61, ../src/partials/_article.scss */
 .article .byline a:hover {
   text-decoration: underline;
 }
-/* line 61, ../src/partials/_article.scss */
+/* line 66, ../src/partials/_article.scss */
 .article .facts {
   background: #dedede;
   padding: 5px;
 }
-/* line 65, ../src/partials/_article.scss */
+/* line 70, ../src/partials/_article.scss */
 .article .facts ul {
   list-style-image: none;
   list-style-type: none;
@@ -164,13 +168,13 @@ a img {
   padding: 0;
   margin: 0;
 }
-/* line 73, ../src/partials/_article.scss */
+/* line 78, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 77, ../src/partials/_article.scss */
+/* line 82, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;
