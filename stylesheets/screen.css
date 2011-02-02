@@ -246,6 +246,7 @@ a img {
 /* line 99, ../src/partials/_article.scss */
 .article .box dd a {
   display: block;
+  background-position: 0 5px;
 }
 
 /* line 1, ../src/partials/_article-tools.scss */
