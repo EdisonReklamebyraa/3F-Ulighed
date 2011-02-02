@@ -139,50 +139,50 @@ a img {
   padding: 0 0 10px 0;
   margin: 0 10px;
 }
-/* line 53, ../src/partials/_article.scss */
+/* line 52, ../src/partials/_article.scss */
 .article .paragraph .facts.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 58, ../src/partials/_article.scss */
+/* line 57, ../src/partials/_article.scss */
 .article .paragraph .facts.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 66, ../src/partials/_article.scss */
+/* line 65, ../src/partials/_article.scss */
 .article .byline {
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 70, ../src/partials/_article.scss */
+/* line 69, ../src/partials/_article.scss */
 .article .byline a {
   color: #7a0414;
   text-decoration: none;
 }
-/* line 73, ../src/partials/_article.scss */
+/* line 72, ../src/partials/_article.scss */
 .article .byline a:hover {
   text-decoration: underline;
 }
-/* line 78, ../src/partials/_article.scss */
+/* line 77, ../src/partials/_article.scss */
 .article .facts {
   background: #dedede;
   padding: 5px;
 }
-/* line 82, ../src/partials/_article.scss */
+/* line 81, ../src/partials/_article.scss */
 .article .facts ul {
   padding: 0;
   margin: 0;
 }
-/* line 90, ../src/partials/_article.scss */
+/* line 89, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 94, ../src/partials/_article.scss */
+/* line 93, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;
