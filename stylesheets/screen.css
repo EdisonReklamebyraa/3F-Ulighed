@@ -188,7 +188,7 @@ a img {
   font-size: 1em;
   margin-bottom: 4px;
 }
-/* line 31, ../src/partials/_link-icons.scss */
+/* line 30, ../src/partials/_link-icons.scss */
 .article .box dd a[href^="http:"],
 .article .box dd a[href^="mailto:"],
 .article .box dd a[href^="http:"]:visited,
@@ -205,48 +205,46 @@ a img {
   margin: -2px 0;
   margin-left: 4px;
   background-repeat: no-repeat;
-  background-position: left center;
 }
-/* line 32, ../src/partials/_link-icons.scss */
+/* line 31, ../src/partials/_link-icons.scss */
 .article .box dd a[href^="http:"] {
   background-image: url('../images/link_icons/external.png?1290511830');
 }
-/* line 33, ../src/partials/_link-icons.scss */
+/* line 32, ../src/partials/_link-icons.scss */
 .article .box dd a[href^="mailto:"] {
   background-image: url('../images/link_icons/email.png?1290511830');
 }
-/* line 34, ../src/partials/_link-icons.scss */
+/* line 33, ../src/partials/_link-icons.scss */
 .article .box dd a[href^="http:"]:visited {
   background-image: url('../images/link_icons/visited.png?1290511830');
 }
-/* line 36, ../src/partials/_link-icons.scss */
+/* line 35, ../src/partials/_link-icons.scss */
 .article .box dd a[href$=".PDF"],
 .article .box dd a[href$=".pdf"] {
   background-image: url('../images/link_icons/pdf.png?1290511830');
 }
-/* line 38, ../src/partials/_link-icons.scss */
+/* line 37, ../src/partials/_link-icons.scss */
 .article .box dd a[href$=".DOC"],
 .article .box dd a[href$=".doc"] {
   background-image: url('../images/link_icons/doc.png?1290511830');
 }
-/* line 40, ../src/partials/_link-icons.scss */
+/* line 39, ../src/partials/_link-icons.scss */
 .article .box dd a[href$=".XLS"],
 .article .box dd a[href$=".xls"] {
   background-image: url('../images/link_icons/xls.png?1290511830');
 }
-/* line 42, ../src/partials/_link-icons.scss */
+/* line 41, ../src/partials/_link-icons.scss */
 .article .box dd a[href$=".rss"],
 .article .box dd a[href$=".rdf"] {
   background-image: url('../images/link_icons/feed.png?1290511830');
 }
-/* line 43, ../src/partials/_link-icons.scss */
+/* line 42, ../src/partials/_link-icons.scss */
 .article .box dd a[href^="aim:"] {
   background-image: url('../images/link_icons/im.png?1290511830');
 }
 /* line 99, ../src/partials/_article.scss */
 .article .box dd a {
   display: block;
-  background-position: 0 5px;
 }
 
 /* line 1, ../src/partials/_article-tools.scss */
