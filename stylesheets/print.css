@@ -170,19 +170,20 @@ a img {
 .article .facts {
   background: #dedede;
   padding: 5px;
+  margin-bottom: 20px;
 }
-/* line 81, ../src/partials/_article.scss */
+/* line 82, ../src/partials/_article.scss */
 .article .facts ul {
   padding: 0;
   margin: 0;
 }
-/* line 89, ../src/partials/_article.scss */
+/* line 90, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 93, ../src/partials/_article.scss */
+/* line 94, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;
