@@ -92,7 +92,7 @@ a img {
 }
 /* line 12, ../src/partials/_article.scss */
 .article .dynamik div {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 /* line 16, ../src/partials/_article.scss */
 .article .summary {
@@ -102,79 +102,77 @@ a img {
 /* line 20, ../src/partials/_article.scss */
 .article .paragraph {
   margin-bottom: 20px;
+  overflow: hidden;
 }
-/* line 22, ../src/partials/_article.scss */
+/* line 23, ../src/partials/_article.scss */
 .article .paragraph .picture {
   width: 200px;
 }
-/* line 24, ../src/partials/_article.scss */
+/* line 25, ../src/partials/_article.scss */
 .article .paragraph .picture.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 29, ../src/partials/_article.scss */
+/* line 30, ../src/partials/_article.scss */
 .article .paragraph .picture.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 34, ../src/partials/_article.scss */
+/* line 35, ../src/partials/_article.scss */
 .article .paragraph .picture .caption {
   background: #dedede;
   padding: 5px;
 }
-/* line 39, ../src/partials/_article.scss */
+/* line 40, ../src/partials/_article.scss */
 .article .paragraph .facts {
   width: 200px;
 }
-/* line 41, ../src/partials/_article.scss */
+/* line 42, ../src/partials/_article.scss */
 .article .paragraph .facts.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 46, ../src/partials/_article.scss */
+/* line 47, ../src/partials/_article.scss */
 .article .paragraph .facts.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 54, ../src/partials/_article.scss */
+/* line 55, ../src/partials/_article.scss */
 .article .byline {
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 58, ../src/partials/_article.scss */
+/* line 59, ../src/partials/_article.scss */
 .article .byline a {
   color: #7a0414;
   text-decoration: none;
 }
-/* line 61, ../src/partials/_article.scss */
+/* line 62, ../src/partials/_article.scss */
 .article .byline a:hover {
   text-decoration: underline;
 }
-/* line 66, ../src/partials/_article.scss */
+/* line 67, ../src/partials/_article.scss */
 .article .facts {
   background: #dedede;
   padding: 5px;
 }
-/* line 70, ../src/partials/_article.scss */
+/* line 71, ../src/partials/_article.scss */
 .article .facts ul {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
   padding: 0;
   margin: 0;
 }
-/* line 78, ../src/partials/_article.scss */
+/* line 79, ../src/partials/_article.scss */
 .article .box dd {
   margin: 0 0 6px 0;
   padding-bottom: 6px;
   border-bottom: 1px solid #c4c4c4;
 }
-/* line 82, ../src/partials/_article.scss */
+/* line 83, ../src/partials/_article.scss */
 .article .box dd h3 {
   font-size: 1em;
   margin-bottom: 4px;
@@ -1697,21 +1695,21 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -130px;
+  margin-bottom: -120px;
 }
 /* line 18, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #main #main_footer {
-  height: 130px;
+  height: 120px;
 }
 
 /* line 20, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 130px;
+  height: 120px;
 }
 
-/* line 4, ../src/screen.scss */
+/* line 3, ../src/partials/_content.scss */
 #main {
   background-color: #f3f3f3;
   width: 940px;
@@ -1719,11 +1717,11 @@ html, body {
   margin-left: auto;
 }
 
-/* line 13, ../src/screen.scss */
+/* line 12, ../src/partials/_content.scss */
 .container {
   /* @include showgrid("grid.png"); */
 }
-/* line 17, ../src/screen.scss */
+/* line 16, ../src/partials/_content.scss */
 .container .header {
   /* background-image:image-url("header_bgimg.jpg");
   height: image-height("header_bgimg.jpg"); */
@@ -1732,13 +1730,13 @@ html, body {
   height: 50px;
   overflow: hidden;
 }
-/* line 22, ../src/screen.scss */
+/* line 21, ../src/partials/_content.scss */
 .container .header img {
   float: left;
   padding-left: 10px;
   padding-top: 6px;
 }
-/* line 28, ../src/screen.scss */
+/* line 27, ../src/partials/_content.scss */
 .container .header .topmenu {
   margin-top: 3px;
   display: inline;
@@ -1751,7 +1749,7 @@ html, body {
 * html .container .header .topmenu {
   overflow-x: hidden;
 }
-/* line 32, ../src/screen.scss */
+/* line 31, ../src/partials/_content.scss */
 .container .header .topmenu ul {
   margin: 0;
   padding: 0;
@@ -1779,18 +1777,18 @@ html, body {
 .container .header .topmenu ul li:last-child, .container .header .topmenu ul li.last {
   padding-left: 0;
 }
-/* line 35, ../src/screen.scss */
+/* line 34, ../src/partials/_content.scss */
 .container .header .topmenu a {
   color: white;
   font-size: 10px;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 42, ../src/screen.scss */
+/* line 41, ../src/partials/_content.scss */
 .container .header .topmenu a:hover {
   text-decoration: underline;
 }
-/* line 48, ../src/screen.scss */
+/* line 47, ../src/partials/_content.scss */
 .container .main {
   display: inline;
   float: left;
@@ -1801,7 +1799,7 @@ html, body {
 * html .container .main {
   overflow-x: hidden;
 }
-/* line 52, ../src/screen.scss */
+/* line 51, ../src/partials/_content.scss */
 .container hr {
   background: #b1b1b1;
   color: #b1b1b1;
@@ -1813,7 +1811,7 @@ html, body {
   border: none;
   margin-bottom: 4px;
 }
-/* line 56, ../src/screen.scss */
+/* line 55, ../src/partials/_content.scss */
 .container .column-1-2-3-4 {
   display: inline;
   float: left;
@@ -1828,11 +1826,11 @@ html, body {
 * html .container .column-1-2-3-4 {
   overflow-x: hidden;
 }
-/* line 62, ../src/screen.scss */
+/* line 61, ../src/partials/_content.scss */
 .container .column-1-2-3-4.nobackground {
   background-image: none;
 }
-/* line 68, ../src/screen.scss */
+/* line 67, ../src/partials/_content.scss */
 .container .column-1-2-3 {
   display: inline;
   float: left;
@@ -1843,7 +1841,7 @@ html, body {
 * html .container .column-1-2-3 {
   overflow-x: hidden;
 }
-/* line 71, ../src/screen.scss */
+/* line 70, ../src/partials/_content.scss */
 .container .column-1-2 {
   display: inline;
   float: left;
@@ -1854,7 +1852,7 @@ html, body {
 * html .container .column-1-2 {
   overflow-x: hidden;
 }
-/* line 73, ../src/screen.scss */
+/* line 72, ../src/partials/_content.scss */
 .container .column-1-2 .pagination {
   display: inline;
   float: left;
@@ -1871,36 +1869,45 @@ html, body {
 * html .container .column-1-2 .pagination {
   overflow-x: hidden;
 }
-/* line 81, ../src/screen.scss */
+/* line 81, ../src/partials/_content.scss */
+.container .column-1-2 .pagination.bottom {
+  border-top: 1px solid #c4c4c4;
+  padding-top: 7px;
+}
+/* line 84, ../src/partials/_content.scss */
+.container .column-1-2 .pagination.bottom .paginationinner .paginationRight, .container .column-1-2 .pagination.bottom .paginationinner .paginationLeft {
+  top: 7px;
+}
+/* line 89, ../src/partials/_content.scss */
 .container .column-1-2 .pagination a {
   text-decoration: none;
   color: #000;
 }
-/* line 84, ../src/screen.scss */
+/* line 92, ../src/partials/_content.scss */
 .container .column-1-2 .pagination a:hover {
   color: #7a0414;
 }
-/* line 90, ../src/screen.scss */
+/* line 98, ../src/partials/_content.scss */
 .container .column-1-2 .pagination .paginationinner {
   padding: 0 10px 0 10px;
 }
-/* line 92, ../src/screen.scss */
+/* line 100, ../src/partials/_content.scss */
 .container .column-1-2 .pagination .paginationinner .paginationLeft {
   position: absolute;
   top: 0;
 }
-/* line 96, ../src/screen.scss */
+/* line 104, ../src/partials/_content.scss */
 .container .column-1-2 .pagination .paginationinner .paginationCenter {
   text-align: center;
   line-height: 20px;
 }
-/* line 101, ../src/screen.scss */
+/* line 109, ../src/partials/_content.scss */
 .container .column-1-2 .pagination .paginationinner .paginationRight {
   position: absolute;
   right: 10px;
   top: 0px;
 }
-/* line 109, ../src/screen.scss */
+/* line 117, ../src/partials/_content.scss */
 .container .column-3-4 {
   display: inline;
   float: left;
@@ -1911,7 +1918,7 @@ html, body {
 * html .container .column-3-4 {
   overflow-x: hidden;
 }
-/* line 112, ../src/screen.scss */
+/* line 120, ../src/partials/_content.scss */
 .container .column-1, .container .column {
   display: inline;
   float: left;
@@ -1922,11 +1929,11 @@ html, body {
 * html .container .column-1, * html .container .column {
   overflow-x: hidden;
 }
-/* line 114, ../src/screen.scss */
+/* line 122, ../src/partials/_content.scss */
 .container .column-1.last, .container .column-1:last-child, .container .column.last, .container .column:last-child {
   margin-right: 0px;
 }
-/* line 118, ../src/screen.scss */
+/* line 126, ../src/partials/_content.scss */
 .container .column-2 {
   display: inline;
   float: left;
@@ -1937,7 +1944,7 @@ html, body {
 * html .container .column-2 {
   overflow-x: hidden;
 }
-/* line 121, ../src/screen.scss */
+/* line 129, ../src/partials/_content.scss */
 .container .column-3 {
   display: inline;
   float: left;
@@ -1948,7 +1955,7 @@ html, body {
 * html .container .column-3 {
   overflow-x: hidden;
 }
-/* line 124, ../src/screen.scss */
+/* line 132, ../src/partials/_content.scss */
 .container .column-4 {
   display: inline;
   float: left;
@@ -1959,64 +1966,64 @@ html, body {
 * html .container .column-4 {
   overflow-x: hidden;
 }
-/* line 128, ../src/screen.scss */
+/* line 136, ../src/partials/_content.scss */
 .container .content {
   padding: 10px 10px 10px 10px;
   overflow: hidden;
 }
-/* line 133, ../src/screen.scss */
+/* line 141, ../src/partials/_content.scss */
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 138, ../src/screen.scss */
+/* line 146, ../src/partials/_content.scss */
 .container .content a {
   text-decoration: none;
   color: #7a0414;
 }
-/* line 141, ../src/screen.scss */
+/* line 149, ../src/partials/_content.scss */
 .container .content a:hover {
   color: #7a0414;
   text-decoration: underline;
 }
-/* line 147, ../src/screen.scss */
+/* line 155, ../src/partials/_content.scss */
 .container .content .row {
   overflow: hidden;
   padding: 0 0 10px 0;
 }
-/* line 152, ../src/screen.scss */
+/* line 160, ../src/partials/_content.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 157, ../src/screen.scss */
+/* line 165, ../src/partials/_content.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 163, ../src/screen.scss */
+/* line 171, ../src/partials/_content.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 169, ../src/screen.scss */
+/* line 177, ../src/partials/_content.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 174, ../src/screen.scss */
+/* line 182, ../src/partials/_content.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 181, ../src/screen.scss */
+/* line 189, ../src/partials/_content.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 183, ../src/screen.scss */
+/* line 191, ../src/partials/_content.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2028,51 +2035,52 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 187, ../src/screen.scss */
+/* line 195, ../src/partials/_content.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 193, ../src/screen.scss */
+/* line 201, ../src/partials/_content.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 196, ../src/screen.scss */
+/* line 204, ../src/partials/_content.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 201, ../src/screen.scss */
+/* line 209, ../src/partials/_content.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 206, ../src/screen.scss */
+/* line 214, ../src/partials/_content.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
-/* line 210, ../src/screen.scss */
+/* line 218, ../src/partials/_content.scss */
 .container .content .articlelist h2 {
-  margin-bottom: 0px;
+  margin: 0 0 8px;
   clear: both;
+  min-height: 55px;
 }
-/* line 214, ../src/screen.scss */
+/* line 223, ../src/partials/_content.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 217, ../src/screen.scss */
+/* line 226, ../src/partials/_content.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 227, ../src/screen.scss */
+/* line 236, ../src/partials/_content.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 231, ../src/screen.scss */
+/* line 240, ../src/partials/_content.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;

@@ -18,7 +18,8 @@
 		margin-bottom: 20px;
 	}
 	.paragraph {
-		margin-bottom: 20px;
+		margin-bottom: 20px;     
+		overflow: hidden;
 		.picture {
 			width: 200px;
 			&.fl {
@@ -68,7 +69,7 @@
 		padding: 5px;				
 		ul
 		{
-			@include no-bullet;  
+
 			padding: 0;
 			margin: 0;
 			
