@@ -96,6 +96,9 @@
 				margin-bottom: 4px;
 			}
 			@include link-icons;
+			a {
+				display: block;
+			}
 		}
 
 	}

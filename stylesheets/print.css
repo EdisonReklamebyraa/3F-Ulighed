@@ -243,6 +243,10 @@ a img {
 .article .box dd a[href^="aim:"] {
   background-image: url('../images/link_icons/im.png?1290511830');
 }
+/* line 99, ../src/partials/_article.scss */
+.article .box dd a {
+  display: block;
+}
 
 /* line 1, ../src/partials/_article-tools.scss */
 .article-tools {
