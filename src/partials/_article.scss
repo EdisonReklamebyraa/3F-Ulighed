@@ -20,6 +20,9 @@
 	.paragraph {
 		margin-bottom: 20px;     
 		overflow: hidden;
+		.hardreturn {
+			margin-bottom: 20px;
+		}
 		.picture {
 			width: 200px;
 			&.fl {
