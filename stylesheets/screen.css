@@ -1984,61 +1984,60 @@ html, body {
 /* line 137, ../src/partials/_content.scss */
 .container .content {
   padding: 10px 10px 10px 10px;
-  overflow: hidden;
 }
-/* line 142, ../src/partials/_content.scss */
+/* line 141, ../src/partials/_content.scss */
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 147, ../src/partials/_content.scss */
+/* line 146, ../src/partials/_content.scss */
 .container .content a {
   text-decoration: none;
   color: #7a0414;
 }
-/* line 150, ../src/partials/_content.scss */
+/* line 149, ../src/partials/_content.scss */
 .container .content a:hover {
   color: #7a0414;
   text-decoration: underline;
 }
-/* line 156, ../src/partials/_content.scss */
+/* line 155, ../src/partials/_content.scss */
 .container .content .row {
   overflow: hidden;
   padding: 0 0 10px 0;
 }
-/* line 161, ../src/partials/_content.scss */
+/* line 160, ../src/partials/_content.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 166, ../src/partials/_content.scss */
+/* line 165, ../src/partials/_content.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 172, ../src/partials/_content.scss */
+/* line 171, ../src/partials/_content.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 178, ../src/partials/_content.scss */
+/* line 177, ../src/partials/_content.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 183, ../src/partials/_content.scss */
+/* line 182, ../src/partials/_content.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 190, ../src/partials/_content.scss */
+/* line 189, ../src/partials/_content.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 192, ../src/partials/_content.scss */
+/* line 191, ../src/partials/_content.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2050,52 +2049,52 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 196, ../src/partials/_content.scss */
+/* line 195, ../src/partials/_content.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 202, ../src/partials/_content.scss */
+/* line 201, ../src/partials/_content.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 205, ../src/partials/_content.scss */
+/* line 204, ../src/partials/_content.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 210, ../src/partials/_content.scss */
+/* line 209, ../src/partials/_content.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 215, ../src/partials/_content.scss */
+/* line 214, ../src/partials/_content.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 219, ../src/partials/_content.scss */
+/* line 218, ../src/partials/_content.scss */
 .container .content .articlelist h2 {
   margin: 0 0 8px;
   clear: both;
   min-height: 55px;
 }
-/* line 224, ../src/partials/_content.scss */
+/* line 223, ../src/partials/_content.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 227, ../src/partials/_content.scss */
+/* line 226, ../src/partials/_content.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 237, ../src/partials/_content.scss */
+/* line 236, ../src/partials/_content.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 241, ../src/partials/_content.scss */
+/* line 240, ../src/partials/_content.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;
