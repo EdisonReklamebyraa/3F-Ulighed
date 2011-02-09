@@ -106,7 +106,7 @@ a img {
 }
 /* line 23, ../src/partials/_article.scss */
 .article .paragraph .hardreturn {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 /* line 26, ../src/partials/_article.scss */
 .article .paragraph .picture {
