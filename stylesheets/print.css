@@ -380,7 +380,7 @@ a img {
 }
 /* line 29, ../src/partials/_menu.scss */
 .mainmenu li:first-child {
-  background-image: url('../images/menuBtnLeft.png?1295350291');
+  background-image: url('../images/menuBtnLeft.png?1297327055');
   background-position: 0px 0px;
   height: 45px;
   width: 188px;
@@ -2005,7 +2005,7 @@ html, body {
 }
 /* line 155, ../src/partials/_content.scss */
 .container .content .row {
-  overflow: hidden;
+  /* overflow: hidden;  */
   padding: 0 0 10px 0;
 }
 /* line 160, ../src/partials/_content.scss */
