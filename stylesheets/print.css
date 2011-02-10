@@ -2005,7 +2005,7 @@ html, body {
 }
 /* line 155, ../src/partials/_content.scss */
 .container .content .row {
-  /* overflow: hidden;  */
+  overflow: hidden;
   padding: 0 0 10px 0;
 }
 /* line 160, ../src/partials/_content.scss */
